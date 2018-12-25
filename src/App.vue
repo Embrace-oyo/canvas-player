@@ -1,22 +1,8 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">{{url}}</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
-<script>
-export default {
-    name: 'home',
-    data(){
-        return {
-            url: ''
-        }
-    }
-}
-</script>
 <style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
